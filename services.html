@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extra Services | Bulldog Gym</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/logo.png">
+</head>
+<body>
+    <div id="navbar"></div>
+    <main id="main-content">
+        <h1>Extra Services</h1>
+        <p>This is the Extra Services page. Add your content here.</p>
+    </main>
+    <script src="app.js"></script>
+    <script>
+      // Inject navbar
+      fetch('navbar.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('navbar').innerHTML = data;
+        });
+    </script>
+</body>
+</html>

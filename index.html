@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulldog Gym, Las Chafiras, Tenerife</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/logo.png">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="assets/logo.png" alt="Bulldog Gym Logo" class="logo">
+            <span class="gym-name">Bulldog Gym</span>
+        </div>
+        <div class="nav-actions">
+            <button id="mode-toggle" title="Toggle dark/light mode">🌙</button>
+            <select id="lang-select" title="Select language">
+                <option value="en">EN</option>
+                <option value="es">ES</option>
+            </select>
+            <button class="hamburger" aria-label="Open navigation menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <ul class="nav-links">
+            <li><button class="nav-btn" data-page="home">Home</button></li>
+            <li><button class="nav-btn" data-page="booking">Book a Class</button></li>
+            <li><button class="nav-btn" data-page="membership">Membership</button></li>
+            <li><button class="nav-btn" data-page="progress">Progress</button></li>
+            <li><button class="nav-btn" data-page="announcements">News</button></li>
+            <li><button class="nav-btn" data-page="gallery">Gallery</button></li>
+            <li><button class="nav-btn" data-page="faq">FAQ</button></li>
+            <li><button class="nav-btn" data-page="contact">Contact</button></li>
+            <li><button class="nav-btn" data-page="team">Meet the Team</button></li>
+            <li><button class="nav-btn" data-page="extras">Extra Services</button></li>
+            <li><button class="nav-btn" data-page="timetable">Timetable</button></li>
+            <li><button class="nav-btn" data-page="about">About</button></li>
+        </ul>
+    </nav>
+    <main id="main-content">
+        <!-- Dynamic content will be loaded here -->
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
